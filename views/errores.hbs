@@ -1,0 +1,35 @@
+  <main>
+    <div class="container ">
+      <div class="row d-flex align-items-center justify-content-center">
+         <div class="col-12 d-flex align-items-center justify-content-center titulo">
+          <h1 class="font-effect-outline">Node Express Café</h1>
+        </div>
+        <div class="col-12 mensajes">
+            <h4>Lo sentimos, ha cometido los siguientes errores al introducir tus datos en el formulario.<br>
+              Por favor, revísalos, y vuelva a intentarlo:<br>
+            </h4>
+            <h4>
+              {{#each errores}}
+              <ul>
+              <li>
+                {{mensaje1}}
+                {{mensaje2}}
+                {{mensaje3}}
+                {{mensaje4}}
+                {{mensaje5}}
+              </li>
+              </ul>
+              {{/each}}
+              </h4>
+        </div>
+        </div>
+
+    <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center mensajes">
+            <form method="get" action="/">
+            <button class= " btn btn-secondary">Volver al formulario</button>
+            </form>
+        </div>
+    </div>      
+    </div>
+  </main>

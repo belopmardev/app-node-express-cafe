@@ -1,0 +1,40 @@
+  <main>
+    <div class="container text-center">
+      <div class="row d-flex align-items-center justify-content-center ">
+         <div class="col-12 d-flex align-items-center justify-content-center titulo">
+          <h1 class="font-effect-outline">Node Express Café</h1>
+        </div>
+        <div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center mensajes text-left">
+            <h4>
+              Hola <b>{{datosCita.nombre}} {{datosCita.apellidos}}</b>, ya hemos anotado la reserva de tu mesa para el día <b>{{datosCita.fecha}}</b> a las <b>{{datosCita.hora}}</b>.<br>
+              Recuerda que el identificador de tu cita es <b>{{datosCita.id}}</b>. Con él podrás modificar o cancelar tu reserva.
+             ¡Gracias por confiar en nosotros!
+            </h4>
+         </div>
+        <div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center mensajes" width="80%">
+          <canvas id="canvas"></canvas>
+            <script src="js/qrcode/build/qrcode.min.js"></script>
+            <script>
+            QRCode.toCanvas(document.getElementById('canvas'), "{{datosCita.nombre}}", function (error) {
+              if (error) console.error(error)
+                console.log('success!');
+              })
+            </script> 
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>Para modificar la reserva, pulsa en <a title="Clic para cambiar la reserva" href="/modificarcita/{{datosCita.id}}">Cambiar Reserva</a></h5>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-12 d-flex align-items-center justify-content-center mensajes">
+          <form method="get" action="/">
+            <button class= "btn btn-secondary">Volver a la página principal</button>
+            </form>
+        </div>
+       
+      </div>      
+    </div>
+  </main>

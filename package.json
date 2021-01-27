@@ -1,0 +1,21 @@
+{
+  "name": "node_app_reservas",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "BLM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "qrcode": "^1.4.4",
+    "uuidv4": "^6.2.6"
+  },
+  "devDependencies": {},
+  "homepage": "",
+  "description": ""
+}

@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #2e9436;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  background-color: #BBD2B8;
+}
+
+header nav label {
+  font-family: 'Sora', sans-serif;
+  font-size: bold;
+}
+
+header nav a, header nav a:hover {
+  color: grey;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+
+header nav li:hover {
+  color: black;
+}
+
+main .container {
+  border: 5px solid #2e9436;
+  max-width: 80%;
+}
+
+main .container .row {
+  background-color: #afce8e;
+}
+
+main .container .row .titulo {
+  margin-top: 30px;
+  color: #23272B;
+  font-family: 'Inria Sans', sans-serif;
+}
+
+main .container .row .mensajes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .container .row .formulario {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .container .row .formulario form {
+  width: 600px;
+  font-size: 20px;
+}

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(46,148,54);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header {
+   width: 100%;nav{
+        background-color: #BBD2B8;
+        label{
+            font-family: 'Sora', sans-serif;
+            font-size: bold;
+        }     
+        a,a:hover{
+            color:grey;
+            margin-left:30px;
+            font-weight: bold;
+            font-size: large;
+            text-decoration: none;
+        }
+        li:hover{
+            color:black;
+        }
+    }
+}
+
+main{
+    .container{
+        border:5px solid rgb(46, 148, 54);
+        max-width: 80%;
+        .row{
+            background-color:#afce8e;
+            .titulo{
+                margin-top: 30px;
+                color: #23272B;
+                font-family: 'Inria Sans', sans-serif;
+            }
+            .mensajes{
+                padding-top:50px;
+                padding-bottom: 50px;
+            }          
+        .formulario{
+              padding-top:50px;
+              padding-bottom: 50px;
+              form{
+                width: 600px;
+                font-size: 20px;
+                }
+          }
+        }
+    }
+}
