@@ -1,10 +1,10 @@
 # Aplicación de reserva de cita previa para comercios de proximidad
 
-_El objetivo fundamental de este proyecto es el desarrollo de una aplicación web que permita la gestión de reservas online a pequeños comercios: reservar una cita, cancelar una cita y conocer el histórico de citas en ese comercio. _
+El objetivo fundamental de este proyecto es el desarrollo de una aplicación web que permita la gestión de reservas online a pequeños comercios: reservar una cita, cancelar una cita y conocer el histórico de citas en ese comercio.
 
 ## Comenzando 🚀
 
-_Para poder desplegar el proyecto es necesario instalar la carpeta **node_modules** e instalar los módulos que aparecen en la sección **Construido con**. _
+Para poder desplegar el proyecto es necesario instalar la carpeta **node_modules** e instalar los módulos que aparecen en la sección **Construido con**.
 
 ## Construido con 🛠️
 
